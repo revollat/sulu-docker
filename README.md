@@ -24,7 +24,7 @@ You're done ! go to http://localhost (or http://localhost/admin with admin/admin
 
 This docker image is for test purpose only. Don't use in production environment.
 
-This docker image is based on the official php 5.6 image https://hub.docker.com/_/php/
+This docker image is based on the official php 7 image https://hub.docker.com/_/php/
 Inside the container nginx, php-fpm and mysql are started using supervisord.
 
 If you want to build the image from the source, inside the clone repo directory do :
