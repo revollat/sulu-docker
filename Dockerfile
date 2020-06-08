@@ -22,7 +22,7 @@ ADD supervisor.conf /etc/supervisor/conf.d/supervisor.conf
 
 # Install Sulu CMS
 WORKDIR /var/www
-RUN git clone https://github.com/sulu/sulu-standard.git
+RUN git clone https://github.com/sulu/sulu.git
 WORKDIR /var/www/sulu-standard
 RUN git checkout master
 RUN composer install --prefer-source
